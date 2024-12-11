@@ -1,83 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="A beloved Spokane coffee shop, founded by a Gonzaga grad, offering gluten-free and vegan snacks, with live music on Thursdays." />
-        <meta name="author" content="Spokane Coffee Shop" />
-        <meta property="og:title" content="Spokane Coffee Shop - A Hub for Students and the Community">
-        <meta property="og:description" content="Beloved by Gonzaga, Whitworth, Eastern, SCC, and WSU students, and the Spokane community, serving gluten-free and vegan snacks, with live music on Thursdays.">
-        <meta property="og:image" content="path_to_image.jpg">
-        <meta property="og:url" content="https://yourwebsite.com">
-        <meta name="twitter:card" content="summary_large_image">
-        <title>Spokane Coffee Shop - A Hub for Students and the Community</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <header>
-            <h1 class="site-heading text-center text-faded d-none d-lg-block">
-                <span class="site-heading-upper text-primary mb-3">A Beloved Spokane Coffee Shop</span>
-                <span class="site-heading-lower">A Place for Everyone</span>
-            </h1>
-        </header>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav" role="navigation" aria-label="Main navigation">
-            <div class="container">
-                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Spokane Coffee Shop</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                        <!-- Updated Navigation Links -->
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="diy.html">DIY</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="resume1.html">Resume</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Hero Section (or any other content that fits)-->
-        <section class="page-section about-heading">
-            <div class="container">
-                <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/coffeeshop.jpg" alt="The cozy interior of a coffee shop with comfortable seating and coffee cups on tables" />
-                <div class="about-heading-content">
-                    <div class="row">
-                        <div class="col-xl-9 col-lg-10 mx-auto">
-                            <div class="bg-faded rounded p-5">
-                                <h2 class="section-heading mb-4">
-                                    <span class="section-heading-upper">From Gonzaga Grad to Spokane Favorite</span>
-                                    <span class="section-heading-lower">About Our Coffee Shop</span>
-                                </h2>
-                                <p>Founded by a proud Gonzaga graduate as part of her Hogan Entrepreneurial Leadership Program project, our coffee shop has become a beloved gathering spot for students and the Spokane community alike. Whether you're a student from Gonzaga, Whitworth, Eastern, SCC, or WSU, or a local Spokane resident, our cozy shop welcomes you with open arms.</p>
-                                <p class="mb-0">
-                                    At our coffee shop, we take pride in offering rich, hand-crafted coffee brewed from the finest beans. But we're not just about great coffee—we also offer a variety of gluten-free and vegan snacks, ensuring that everyone can enjoy a delicious treat with their drink. Our goal is to make our space welcoming for all, whether you're grabbing a quick cup to go or sitting down to study or hang out with friends.</p>
-                                <p class="mb-0">
-                                    And if you're in town on a Thursday, don't miss our live music sessions, where local artists bring their talent to our warm, inviting space. It's the perfect way to unwind and enjoy a cup of coffee while listening to great tunes!</p>
-                                <p class="mb-0">
-                                    Join us for your daily routine, a study break, or simply to relax and enjoy the vibrant atmosphere that makes our coffee shop a unique spot in Spokane. We can’t wait to welcome you!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="footer text-faded text-center py-5">
-            <div class="container">
-                <p class="m-0 small">Copyright &copy; Spokane Coffee Shop 2023</p>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
-</html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Study Spot - Home</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        /* General Body Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/coffee-beans.jpg'); /* Background image */
+            background-size: cover; /* Ensure the image covers the entire page */
+            background-position: center center; /* Center the image */
+            color: #fff; /* White text for contrast */
+        }
 
+        /* Container Styles */
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .site-heading {
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #f5f5f5; /* Light text for the main heading */
+        }
+
+        .site-heading-upper {
+            font-size: 1.5rem;
+            color: #f39c12; /* Light orange for the upper text */
+        }
+
+        .site-heading-lower {
+            font-size: 2.5rem;
+            color: #fff; /* White for the main title */
+        }
+
+        nav {
+            margin-top: 30px;
+            font-size: 1.2rem;
+        }
+
+        nav a {
+            color: #f39c12; /* Orange links */
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+            color: #fff;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Section Styling */
+        .about-heading {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .about-heading h2 {
+            color: #fff;
+            font-size: 2.5rem;
+        }
+
+        .about-heading p {
+            color: #ddd; /* Light gray for paragraph text */
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .site-heading {
+                font-size: 2rem;
+            }
+
+            .about-heading {
+                padding: 20px;
+            }
+
+            .about-heading h2 {
+                font-size: 1.8rem;
+            }
+
+            .about-heading p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">A Cozy Spokane Coffee Shop</span>
+                <span class="site-heading-lower">The Study Spot</span>
+            </h1>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="diy.html">Explore</a>
+        <a href="resume1.html">Resume</a>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about-heading">
+        <div class="container">
+            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="images/coffee-cup.jpg" alt="Coffee cup" width="300">
+            <div class="about-heading-content">
+                <h2>Welcome to The Study Spot</h2>
+                <p>Located in the heart of Spokane, The Study Spot is more than just a coffee shop; it’s a place where Gonzaga, Whitworth, Eastern, SCC, and WSU students, as well as the local community, gather to enjoy artisan coffee, gluten-free and vegan snacks, and live music every Thursday. Founded by a Gonzaga grad for her Hogan Entrepreneurial Leadership Program project, we strive to create a space that’s welcoming to all.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; The Study Spot 2024</p>
+    </footer>
+
+</body>
+</html>
